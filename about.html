@@ -1,0 +1,252 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About — The Frontier Gazeta</title><meta name="description" content="The Frontier Gazeta is a twice-weekly paper built from long-form podcasts and video."><meta property="og:title" content="About — The Frontier Gazeta"><meta property="og:description" content="The Frontier Gazeta is a twice-weekly paper built from long-form podcasts and video."><meta property="og:type" content="article"><link rel="canonical" href="https://gazette.gerardbarile.com/about.html"><meta property="og:url" content="https://gazette.gerardbarile.com/about.html"><link rel="alternate" type="application/rss+xml" title="The Frontier Gazeta" href="/feed.xml"><style>
+  html { scroll-behavior:smooth; }
+  body { margin:0; padding:0; background:#e4ddc7; }
+  .paper { max-width:700px; margin:0 auto; background:#f3eedc; color:#1d1912;
+            font-family:Georgia,'Times New Roman',serif; font-size:16px;
+            line-height:1.62; padding:0 38px 54px; }
+
+  /* ---------- masthead: nameplate, edition badge, dateline bar ---------- */
+  .masthead { text-align:center; padding:30px 0 0; }
+  .wordmark { font-size:36px; letter-spacing:.09em; text-transform:uppercase;
+               font-weight:700; margin:0 0 12px; line-height:1; }
+  .wordmark a { color:#1d1912; text-decoration:none; }
+  .sitenav { text-align:center; padding:14px 0 0;
+              font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+              font-size:10px; letter-spacing:.17em; text-transform:uppercase;
+              color:#766f5c; }
+  .sitenav a { color:#766f5c; text-decoration:none; }
+  .sitenav a:hover { color:#8b1a1a; }
+  .sitenav select { font-family:inherit; font-size:10px; letter-spacing:.12em;
+                    text-transform:uppercase; color:#1d1912; background:#f3eedc;
+                    border:1px solid #d9d0b8; padding:2px 4px; cursor:pointer; }
+  .masthead .heavy { border-top:3px double #1d1912; margin:0; }
+  .masthead .hair { border-top:1px solid #d9d0b8; margin:0; }
+  .edition-tag-row { margin:13px 0 5px; }
+  .edition-tag { display:inline-block; border:1px solid #8b1a1a; color:#8b1a1a;
+               font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:9px; letter-spacing:.17em; text-transform:uppercase;
+               padding:3px 10px; }
+  .dateline { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:10px; letter-spacing:.16em; text-transform:uppercase;
+               color:#766f5c; margin:10px 0 14px; }
+
+  /* ---------- shared ---------- */
+  .kicker { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+             font-size:10px; letter-spacing:.17em; text-transform:uppercase;
+             color:#766f5c; margin:0 0 9px; }
+  .kicker.accent { color:#8b1a1a; }
+  hr.sep { border:0; border-top:1px solid #d9d0b8; margin:30px 0; }
+  .divider { text-align:center; margin:28px 0; color:#8b1a1a;
+              font-size:11px; letter-spacing:.3em; }
+  a { color:#8b1a1a; }
+
+  /* ---------- the thread (lead essay) ---------- */
+  .thread { padding:26px 0 0; }
+  .thread h2 { font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+                font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                color:#8b1a1a; margin:0 0 14px; font-weight:700; }
+  .thread p { margin:0 0 13px; font-size:16.5px; line-height:1.66; }
+  .thread p.first:first-letter { float:left; font-size:52px; line-height:.86;
+                font-weight:700; padding:4px 7px 0 0; color:#1d1912; }
+
+  /* ---------- "Inside this edition" digest box ---------- */
+  .inside-box { border-top:3px double #1d1912; border-bottom:3px double #1d1912;
+                 padding:16px 0 14px; margin:30px 0 0; }
+  .inside-box .kicker { color:#8b1a1a; }
+  .index ol { list-style:none; margin:0; padding:0; }
+  .index li { padding:9px 0 9px 2em; text-indent:-2em;
+               border-top:1px solid #d9d0b8;
+               font-size:15px; line-height:1.38; }
+  .index li:first-child { border-top:0; padding-top:4px; }
+  .index .n { display:inline-block; width:2em; text-indent:0;
+               color:#8b1a1a; font-weight:700;
+               font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:12px; }
+  .index .ttl { color:#1d1912; text-decoration:none;
+               border-bottom:1px solid #d9d0b8; }
+  .index .ttl:hover { color:#8b1a1a; border-bottom-color:#8b1a1a; }
+  .index .sub { display:block; margin-top:3px;
+               font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:10.5px; letter-spacing:.09em; text-transform:uppercase;
+               color:#766f5c; }
+  .index .src { color:#8b1a1a; text-decoration:none; }
+
+  /* ---------- an entry ---------- */
+  .entry { padding:4px 0 0; scroll-margin-top:18px; }
+  .entry .rank { font-size:13px; font-weight:700; color:#8b1a1a;
+                  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                  letter-spacing:.1em; margin:0 0 4px; }
+  .entry h3 { font-size:23px; line-height:1.17; margin:0 0 7px;
+               letter-spacing:-.01em; }
+  .entry h3.lead { font-size:29px; line-height:1.12; }
+  .entry .meta { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                  font-size:10.5px; letter-spacing:.09em; text-transform:uppercase;
+                  color:#766f5c; margin:0 0 12px; }
+  .byline { font-size:13.5px; color:#1d1912; margin:0 0 14px;
+             padding:9px 0; border-top:1px solid #d9d0b8;
+             border-bottom:1px solid #d9d0b8; }
+  .byline .gl { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+               color:#8b1a1a; }
+  .byline b { font-weight:700; }
+  .byline .who { color:#766f5c; }
+  .lede { font-size:16.5px; line-height:1.64; margin:0 0 18px; }
+
+  ol.takeaways { list-style:none; margin:0 0 18px; padding:0; }
+  ol.takeaways li { padding:0 0 9px 1.9em; text-indent:-1.9em;
+                     font-size:15.5px; line-height:1.52; }
+  ol.takeaways .n { display:inline-block; width:1.9em; text-indent:0;
+                     color:#8b1a1a; font-weight:700;
+                     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                     font-size:12.5px; }
+  ol.takeaways li.caveat .n { color:#766f5c; }
+
+  blockquote { margin:0 0 18px; padding:12px 0 2px; border-top:1px solid #d9d0b8;
+                font-size:19px; line-height:1.4; font-style:italic;
+                color:#1d1912; overflow:hidden; }
+  .bigquote { float:left; font-family:Georgia,'Times New Roman',serif;
+               font-size:46px; font-style:normal; line-height:.5;
+               margin:11px 6px 0 -2px; color:#8b1a1a; }
+  blockquote cite { display:block; margin-top:7px; font-style:normal;
+                font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+                color:#766f5c; }
+
+  .connects { font-size:14.5px; line-height:1.55; margin:0;
+               padding:11px 0 0; border-top:1px solid #d9d0b8; color:#1d1912; }
+  .connects .lbl { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:10px; letter-spacing:.15em; text-transform:uppercase;
+               color:#8b1a1a; margin-right:7px; }
+
+  .pager { margin-top:34px; padding-top:12px; border-top:1px solid #d9d0b8;
+            overflow:hidden;
+            font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+            font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; }
+  .pager a { color:#8b1a1a; text-decoration:none; }
+  .pager .next { float:right; }
+
+  /* ---------- archive + about pages ---------- */
+  .month { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+            font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+            color:#8b1a1a; font-weight:700; margin:30px 0 4px; }
+  ol.issues { list-style:none; margin:0; padding:0; }
+  ol.issues li { padding:14px 0; border-top:1px solid #d9d0b8; }
+  ol.issues .when { font-size:20px; font-weight:700; line-height:1.25;
+                    color:#1d1912; text-decoration:none; }
+  ol.issues .when:hover { color:#8b1a1a; }
+  ol.issues .facts { display:block; margin:4px 0 6px;
+                     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+                     font-size:10.5px; letter-spacing:.09em; text-transform:uppercase;
+                     color:#766f5c; }
+  ol.issues .dek { font-size:15px; line-height:1.5; margin:0; }
+  .about-shows { list-style:none; margin:0; padding:0; }
+  .about-shows li { padding:6px 0; border-top:1px solid #d9d0b8; font-size:15px; }
+  .about-shows a { color:#1d1912; text-decoration:none; }
+  .about-shows a:hover { color:#8b1a1a; }
+
+  .colophon { margin-top:34px; padding-top:13px; border-top:3px double #1d1912;
+               font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+               font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+               color:#766f5c; text-align:center; }
+
+  /* ---------- phones ---------- */
+  @media (max-width:600px) {
+    .paper { padding:0 18px 40px; }
+    .wordmark { font-size:22px; letter-spacing:.06em; }
+    .entry h3 { font-size:20px; }
+    .entry h3.lead { font-size:24px; }
+    blockquote { font-size:17px; }
+  }
+
+  /* ---------- print: tight, chrome-free, entries kept whole ---------- */
+  @media print {
+    @page { size:letter; margin:.5in; }
+    body { background:#fff; }
+    .paper { max-width:none; padding:0; font-size:8pt; line-height:1.34;
+              background:#fff; }
+    .masthead { padding:0; }
+    .wordmark { font-size:17pt; margin:0 0 3pt; }
+    .edition-tag-row { margin:4pt 0 2pt; }
+    .edition-tag { font-size:5.5pt; padding:1pt 5pt; }
+    .dateline { font-size:6pt; margin:3pt 0 4pt; }
+    .thread { padding:7pt 0 0; }
+    .thread h2 { font-size:7.5pt; margin:0 0 4pt; }
+    .thread p { font-size:8pt; line-height:1.34; margin:0 0 4pt; }
+    .thread p.first:first-letter { font-size:22pt; padding:2pt 3pt 0 0; }
+    .inside-box { border-top:1pt solid #999; border-bottom:1pt solid #999;
+                   padding:4pt 0 3pt; margin:8pt 0 0; }
+    .index li { font-size:7.5pt; padding:2pt 0 2pt 1.8em; }
+    .index li:first-child { padding-top:1pt; }
+    .index .n { font-size:7pt; }
+    .index .sub { font-size:6.2pt; margin-top:1pt; }
+    .index .ttl { border-bottom:0; }
+    hr.sep { margin:8pt 0; }
+    .divider { margin:7pt 0; font-size:6pt; letter-spacing:.2em; }
+    .entry h3 { font-size:11pt; margin:0 0 3pt; }
+    .entry h3.lead { font-size:13.5pt; }
+    .entry .rank, .entry .meta { font-size:6.5pt; margin:0 0 3pt; }
+    .byline { font-size:7pt; margin:0 0 5pt; padding:3pt 0; }
+    .byline .gl { font-size:5.5pt; }
+    .lede { font-size:8pt; line-height:1.34; margin:0 0 5pt; }
+    ol.takeaways { margin:0 0 5pt; }
+    ol.takeaways li { font-size:7.8pt; line-height:1.3; padding:0 0 2.5pt 1.7em; }
+    ol.takeaways .n { font-size:7pt; }
+    blockquote { font-size:9pt; margin:0 0 5pt; padding:4pt 0 1pt; }
+    .bigquote { font-size:16pt; margin:3pt 2pt 0 -1pt; }
+    blockquote cite { font-size:6pt; margin-top:2pt; }
+    .connects { font-size:7.5pt; padding:4pt 0 0; }
+    .connects .lbl { font-size:6pt; }
+    .colophon, .sitenav, .pager { display:none; }
+    a { color:inherit; text-decoration:none; }
+    .entry { break-inside:avoid; page-break-inside:avoid; }
+    .index, .thread { break-inside:avoid; page-break-inside:avoid; }
+  }
+</style></head><body><div class="paper">
+<nav class="sitenav"><a href="/">Latest</a> &nbsp;·&nbsp; <a href="/archive.html">Archive</a> &nbsp;·&nbsp; <a href="/about.html">About</a> &nbsp;·&nbsp; <select aria-label="Past editions" onchange="if(this.value)location.href=this.value"><option value="">Past editions</option><option value="/editions/2026-10-16.html">Friday, October 16, 2026</option></select></nav>
+<div class="masthead"><div class="wordmark"><a href="/">The Frontier Gazeta</a></div><div class="heavy"></div><div class="dateline">About this paper</div><div class="hair"></div></div>
+<div class="thread"><p class="first">The Frontier Gazeta is a twice-weekly paper built from long-form podcasts and video. Every Wednesday and Sunday at 8am Eastern it covers each episode the 30 shows below published since the last edition, across AI, venture, crypto, markets and macro.</p>
+<p>Each episode gets a short summary and five takeaways, written around why they matter. Episodes run in order of how much new information they carry. The opening essay, The Thread, covers what the shows were arguing about and where independent voices landed in the same place.</p>
+<p>The summaries are machine-written from the episodes themselves, under strict rules about sourcing, and edited by Gerard Barile. Quotes and figures come from the episodes. Every entry links to the source, so you can check anything that matters to you.</p></div>
+<div class="inside-box"><div class="kicker">The 30 shows we read</div>
+<div class="month">Frontier AI</div><ul class="about-shows">
+<li><a href="https://www.youtube.com/@DwarkeshPatel">Dwarkesh Podcast</a></li>
+<li><a href="https://www.youtube.com/@lexfridman">Lex Fridman Podcast</a></li>
+<li><a href="https://www.youtube.com/@NoPriorsPodcast">No Priors</a></li>
+<li><a href="https://www.youtube.com/@CognitiveRevolutionPodcast">The Cognitive Revolution</a></li>
+<li><a href="https://www.youtube.com/@LatentSpacePod">Latent Space</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8">Training Data (Sequoia)</a></li>
+</ul>
+<div class="month">Building &amp; Markets</div><ul class="about-shows">
+<li><a href="https://www.youtube.com/@AcquiredFM">Acquired</a></li>
+<li><a href="https://feeds.megaphone.fm/CLS2859450455">Invest Like the Best</a></li>
+<li><a href="https://www.youtube.com/@BG2Pod">BG2 Pod</a></li>
+<li><a href="https://www.youtube.com/@allin">All-In</a></li>
+<li><a href="https://feeds.megaphone.fm/DSLLC6297708582">Founders (David Senra)</a></li>
+<li><a href="https://omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8A94442E-5A74-4FA2-8B8D-AE27003A8D6B/982F5071-765C-403D-969D-AE27003A8D83/podcast.rss">Odd Lots</a></li>
+<li><a href="https://www.youtube.com/@a16z">a16z Podcast</a></li>
+<li><a href="https://www.youtube.com/@20VC">20VC</a></li>
+<li><a href="https://www.youtube.com/@LennysPodcast">Lenny&#x27;s Podcast</a></li>
+<li><a href="https://www.youtube.com/@ChinaTalkMedia">ChinaTalk</a></li>
+<li><a href="https://www.youtube.com/@TheCompoundNews">The Compound</a></li>
+</ul>
+<div class="month">VC &amp; Secondaries</div><ul class="about-shows">
+<li><a href="https://www.youtube.com/@361Firm">361 Firm</a></li>
+<li><a href="https://www.youtube.com/@ycombinator">Y Combinator</a></li>
+<li><a href="https://www.youtube.com/@startups">This Week in Startups</a></li>
+<li><a href="https://www.youtube.com/@TurpentineVC">Turpentine VC</a></li>
+<li><a href="https://www.youtube.com/@theloganbartlettshow">The Logan Bartlett Show</a></li>
+<li><a href="https://www.youtube.com/@david_weisburd">How I Invest (David Weisburd)</a></li>
+<li><a href="https://www.youtube.com/@when-shift-happens">When Shift Happens</a></li>
+<li><a href="https://rss.libsyn.com/shows/94820/destinations/482814.xml">Capital Allocators</a></li>
+</ul>
+<div class="month">Crypto</div><ul class="about-shows">
+<li><a href="https://www.youtube.com/@UnchainedCrypto">Unchained</a></li>
+<li><a href="https://www.youtube.com/@UnchainedCrypto">The Chopping Block</a></li>
+<li><a href="https://www.youtube.com/@empirepod">Empire</a></li>
+<li><a href="https://www.youtube.com/@TokenizedPodcast">Tokenized</a></li>
+</ul>
+<div class="month">Macro</div><ul class="about-shows">
+<li><a href="https://www.youtube.com/@ForwardGuidanceBW">Forward Guidance</a></li>
+</ul>
+</div>
+<div class="colophon">The Frontier Gazeta &nbsp;·&nbsp; About</div></div></body></html>
