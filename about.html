@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About — Not Enough Time</title><meta name="description" content="Nobody has time to listen to thirty podcasts a week."><meta property="og:title" content="About — Not Enough Time"><meta property="og:description" content="Nobody has time to listen to thirty podcasts a week."><meta property="og:type" content="article"><link rel="canonical" href="https://notenoughtime.gerardbarile.com/about.html"><meta property="og:url" content="https://notenoughtime.gerardbarile.com/about.html"><link rel="alternate" type="application/rss+xml" title="Not Enough Time" href="/feed.xml"><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About — Not Enough Time</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7.5' fill='%2384cc16'/%3E%3C/svg%3E"><meta name="description" content="Nobody has time to listen to thirty podcasts a week."><meta property="og:title" content="About — Not Enough Time"><meta property="og:description" content="Nobody has time to listen to thirty podcasts a week."><meta property="og:type" content="article"><link rel="canonical" href="https://notenoughtime.gerardbarile.com/about.html"><meta property="og:url" content="https://notenoughtime.gerardbarile.com/about.html"><link rel="alternate" type="application/rss+xml" title="Not Enough Time" href="/feed.xml"><style>
   html { scroll-behavior:smooth; }
   body { margin:0; padding:0; background:#e4ddc7; }
   .paper { max-width:700px; margin:0 auto; background:#f3eedc; color:#1d1912;
@@ -45,6 +45,23 @@
   /* ---------- front page: banner headline + The Trends ---------- */
   .front-hed { font-size:34px; line-height:1.08; font-weight:700;
                 letter-spacing:-.012em; margin:26px 0 0; }
+  .brief { border-top:3px double #1d1912; border-bottom:3px double #1d1912;
+            padding:14px 0 10px; margin:22px 0 0; }
+  .brief .kicker { color:#8b1a1a; }
+  .brief ol { list-style:none; margin:0; padding:0; }
+  .brief li { padding:8px 0 8px 28px; text-indent:-28px; border-top:1px solid #d9d0b8;
+              font-size:15.5px; line-height:1.45; }
+  .brief li:first-child { border-top:0; padding-top:2px; }
+  .brief .n { display:inline-block; width:28px; text-indent:0; color:#8b1a1a;
+              font-weight:700; font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; }
+  .brief a { color:#1d1912; font-weight:700; text-decoration:none;
+             border-bottom:1px solid #d9d0b8; }
+  .brief a:hover { color:#8b1a1a; border-bottom-color:#8b1a1a; }
+  .brief a.jump { display:block; margin:6px 0 0 28px; padding-top:8px; border-top:1px solid #d9d0b8;
+                  border-bottom:0; font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:10.5px; font-weight:700;
+                  letter-spacing:.14em; text-transform:uppercase; color:#8b1a1a; }
+  .brief a.jump:hover { color:#1d1912; }
+  .trends li[id], .more { scroll-margin-top:18px; }
   .trends { padding:22px 0 0; }
   .trends ol { list-style:none; margin:0; padding:0; }
   .trends li { padding:12px 0 12px 30px; text-indent:-30px;
@@ -289,6 +306,11 @@
     .edition-tag { font-size:5.5pt; padding:1pt 5pt; }
     .dateline { font-size:6pt; margin:3pt 0 4pt; }
     .front-hed { font-size:15pt; margin:6pt 0 0; }
+    .brief { border-top:1pt solid #999; border-bottom:1pt solid #999; padding:3pt 0; margin:5pt 0 0; }
+    .brief li { font-size:8pt; line-height:1.3; padding:1.5pt 0 1.5pt 13pt; text-indent:-13pt; }
+    .brief .n { font-size:7pt; width:13pt; }
+    .brief a { border-bottom:0; }
+    .brief a.jump { display:none; }
     .trends { padding:6pt 0 0; }
     .trends h2 { font-size:7.5pt; margin:0 0 3pt; }
     .trends li { padding:2.5pt 0 2.5pt 14pt; text-indent:-14pt; }
